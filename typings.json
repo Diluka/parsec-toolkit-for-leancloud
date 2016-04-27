@@ -1,0 +1,8 @@
+{
+  "name": "parsec-toolkit-for-leancloud",
+  "version": false,
+  "dependencies": {
+    "moment": "registry:npm/moment#2.10.5+20160211003958"
+  },
+  "ambientDependencies": {}
+}

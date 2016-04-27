@@ -1,0 +1,32 @@
+{
+  "name": "parsec-toolkit-for-leancloud",
+  "version": "1.0.0",
+  "description": "A toolkit for Leancloud",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diluka/parsec-toolkit-for-leancloud.git"
+  },
+  "keywords": [
+    "parsec",
+    "toolkit",
+    "leancloud"
+  ],
+  "author": "Parsec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Diluka/parsec-toolkit-for-leancloud/issues"
+  },
+  "homepage": "https://github.com/Diluka/parsec-toolkit-for-leancloud#readme",
+  "dependencies": {
+    "moment": "^2.13.0"
+  },
+  "devDependencies": {
+    "leanengine": "*",
+    "typescript": "^1.8.10",
+    "typings": "*"
+  }
+}
