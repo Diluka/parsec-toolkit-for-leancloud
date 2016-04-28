@@ -4,7 +4,6 @@
   "description": "A toolkit for Leancloud",
   "main": "index.js",
   "scripts": {
-    "postinstall": "tsc"
   },
   "repository": {
     "type": "git",
