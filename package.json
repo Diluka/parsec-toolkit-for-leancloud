@@ -4,9 +4,6 @@
   "description": "A toolkit for Leancloud",
   "main": "index.js",
   "scripts": {
-    "typings": "node_modules/.bin/typings",
-    "tsc": "node_modules/.bin/tsc",
-    "postinstall": "typings install && tsc"
   },
   "repository": {
     "type": "git",
@@ -26,7 +23,8 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "moment": "*"
+    "moment": "*",
+    "leanengine": "*"
   },
   "devDependencies": {
     "moment": "*",
