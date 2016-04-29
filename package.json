@@ -4,6 +4,8 @@
   "description": "A toolkit for Leancloud",
   "main": "index.js",
   "scripts": {
+    "typings": "typings",
+    "postinstall": "typings install"
   },
   "repository": {
     "type": "git",
@@ -21,9 +23,12 @@
   },
   "homepage": "https://github.com/Diluka/parsec-toolkit-for-leancloud#readme",
   "dependencies": {
-    "moment": "^2.13.0"
+  },
+  "peerDependencies":{
+    "moment": "*"
   },
   "devDependencies": {
+    "moment": "*",
     "leanengine": "*",
     "typescript": "^1.8.10",
     "typings": "*"

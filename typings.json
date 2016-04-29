@@ -4,5 +4,8 @@
   "dependencies": {
     "moment": "registry:npm/moment#2.10.5+20160211003958"
   },
-  "ambientDependencies": {}
+  "ambientDependencies": {
+    "leanengine": "github:Diluka/leancloud-definition/leanengine.d.ts#0d908492932731c2baa12662b1daf5b145a03b6d",
+    "node": "registry:dt/node#4.0.0+20160423143914"
+  }
 }
