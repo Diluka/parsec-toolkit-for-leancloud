@@ -1,9 +1,10 @@
 {
   "name": "parsec-toolkit-for-leancloud",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A toolkit for Leancloud",
   "main": "index.js",
   "scripts": {
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
