@@ -1,4 +1,4 @@
-import {AV} from "leanengine"
+import * as AV from "leanengine"
 export function addSortToQuery(sort:string[], query:AV.Query):AV.Query {
 
     sort.forEach(function (s) {

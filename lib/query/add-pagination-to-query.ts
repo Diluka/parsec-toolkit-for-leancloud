@@ -1,4 +1,4 @@
-import {AV} from "leanengine";
+import * as AV from "leanengine";
 
 const DEFAULT_LIST_SIZE = 20;
 /**

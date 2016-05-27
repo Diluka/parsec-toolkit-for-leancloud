@@ -1,11 +1,9 @@
 {
-  "name": "parsec-toolkit-for-leancloud",
-  "version": false,
   "dependencies": {
     "moment": "registry:npm/moment#2.10.5+20160211003958"
   },
-  "ambientDependencies": {
-    "leanengine": "github:Diluka/leancloud-definition/leanengine.d.ts#0d908492932731c2baa12662b1daf5b145a03b6d",
-    "node": "registry:dt/node#4.0.0+20160423143914"
+  "globalDependencies": {
+    "avoscloud-sdk": "registry:dt/avoscloud-sdk#0.6.10+20160505185452",
+    "node": "registry:env/node#4.0.0+20160507210304"
   }
 }

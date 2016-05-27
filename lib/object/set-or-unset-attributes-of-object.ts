@@ -1,4 +1,4 @@
-import {AV} from "leanengine";
+import * as AV from "leanengine";
 
 export function setOrUnsetAttributesOfObject(keys:string[], data:Object, object:AV.Object):void {
     keys.forEach(function (f) {

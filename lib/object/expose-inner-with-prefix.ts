@@ -1,4 +1,4 @@
-import {AV} from "leanengine";
+import * as AV from "leanengine";
 
 export function exposeInnerWithPrefixFunc(inner:string, keys:string[], prefix = ""):Function {
     return (input:AV.Object|AV.Object[]) => exposeInnerWithPrefix(input, inner, keys, prefix);
